@@ -20,7 +20,7 @@ local function create_terminal(create_with)
     return buf_id, term_id
 end
 
-local function find_terminal(idx)
+local function find_terminal(args)
     if type(args) == "number" then
         args = { idx = args }
     end
